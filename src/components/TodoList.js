@@ -34,7 +34,7 @@ function TodoList() {
   };
   return (
     <>
-      <h1>What's your plan today??</h1>
+      <h1>What milestones are you setting for today?</h1>
       <div>
         <TodoForm onSubmit={addTodo} />
         <Todo
